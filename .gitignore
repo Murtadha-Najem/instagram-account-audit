@@ -1,0 +1,16 @@
+# Everything a run produces stays local: downloads, transcripts, collected profiles, reports.
+data/
+profiles/
+batch/
+reels/
+*.log
+
+# Credentials never go in the repository.
+cookies*.txt
+gemini_keys.txt
+.env
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

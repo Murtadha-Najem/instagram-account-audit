@@ -1,0 +1,111 @@
+{
+  "project_root": "{{PROJECT_ROOT}}",
+  "python": "{{PYTHON}}",
+  "edge": "{{BROWSER}}",
+  "default_cookies": "~/.config/reel/cookies.txt",
+  "face_models": "~/.insightface/models/buffalo_l",
+  "app_id": "936619743392459",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36",
+  "doc_ids": {
+    "posts_first": "28379418928391013",
+    "posts_next": "28975909992013618",
+    "reels_tab": "29236166995986794",
+    "checked": "2026-09-24"
+  },
+  "pace": {
+    "normal": {
+      "page": [
+        2.0,
+        4.5
+      ],
+      "item": [
+        2.5,
+        5.0
+      ],
+      "download": [
+        4.0,
+        9.0
+      ],
+      "break_every": 0,
+      "break": [
+        0,
+        0
+      ]
+    },
+    "slow": {
+      "page": [
+        6.0,
+        12.0
+      ],
+      "item": [
+        6.0,
+        12.0
+      ],
+      "download": [
+        12.0,
+        22.0
+      ],
+      "break_every": 60,
+      "break": [
+        120,
+        300
+      ]
+    }
+  },
+  "size_classes": {
+    "_note": "large switches to the slow pace and asks about a spare login; huge also drops the internal-circle analysis",
+    "large_followers": 50000,
+    "large_posts": 400,
+    "huge_followers": 500000
+  },
+  "analysis": {
+    "lift_window": 4,
+    "too_recent_hours": 72,
+    "presence_min_frames": 3,
+    "habitual": {
+      "share": 0.5,
+      "min_window_posts": 6,
+      "min_days": 60,
+      "complete_list": 0.9
+    }
+  },
+  "faces": {
+    "fps": 2.0,
+    "min_score": 0.6,
+    "min_side": 40,
+    "match": 0.4,
+    "margin": 0.08,
+    "cluster": 0.5
+  },
+  "cost_per_post": {
+    "_note": "measured on a full run of about 110 posts (Sep 2026): subagent tokens per post by type, and seconds",
+    "content_tokens": {
+      "reel": 23000,
+      "carousel": 11500,
+      "photo": 7700
+    },
+    "craft_tokens": {
+      "reel": 36000,
+      "carousel": 24000,
+      "photo": 12000
+    },
+    "fixed_tokens": {
+      "profiler": 150000,
+      "panel": 600000,
+      "writers": 800000,
+      "orchestration": 900000
+    },
+    "pipeline_seconds": {
+      "reel": 40,
+      "carousel": 25,
+      "photo": 12
+    },
+    "collect_seconds_normal": {
+      "grid_page": 5,
+      "comments_post": 6,
+      "likers_post": 5,
+      "partner": 5
+    },
+    "slow_factor": 3.0
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_note": "Used when the account has no brand of its own. account.json 'brand' overrides any colour, the fonts and the logos.",
+  "colors": {
+    "ink": "#1B2430",
+    "accent": "#2F6FED",
+    "accent2": "#8EC5FF",
+    "surface": "#F4F1EA",
+    "highlight": "#F2A93B",
+    "negative": "#D9483B",
+    "text": "#40444B",
+    "soft": "#6B6F78",
+    "line": "#E6E1D8",
+    "zebra": "#FAF8F3"
+  },
+  "font_latin": "Inter",
+  "font_arabic": "IBM Plex Sans Arabic",
+  "google_fonts": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap",
+  "logo_light": null,
+  "logo_dark": null
+}

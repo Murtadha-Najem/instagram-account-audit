@@ -1,0 +1,20 @@
+# reel pipeline
+requests
+yt-dlp
+numpy
+opencv-python
+Pillow
+onnxruntime
+rapidocr
+shazamio
+torch
+panns-inference
+google-genai
+# reports and analysis
+pymupdf
+markdown
+beautifulsoup4
+pandas
+openpyxl
+# optional: refreshing Instagram query ids
+playwright

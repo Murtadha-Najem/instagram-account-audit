@@ -1,0 +1,13 @@
+{
+  "project_root": "{{PROJECT_ROOT}}",
+  "python": "{{PYTHON}}",
+  "edge": "{{BROWSER}}",
+  "app_id": "936619743392459",
+  "reposts_doc_id": "28207509835600523",
+  "reposts_doc_id_checked": "2026-09-15",
+  "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0 Safari/537.36",
+  "page_pause_seconds": [
+    2.0,
+    4.5
+  ]
+}
