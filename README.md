@@ -43,7 +43,7 @@ slow pace, with the option of a spare login.
 ## Install
 
 ```bash
-git clone https://github.com/murtadha203/instagram-account-audit.git
+git clone https://github.com/Murtadha-Najem/instagram-account-audit.git
 cd instagram-account-audit
 pip install -r requirements.txt
 python install.py            # copies the skills to ~/.claude/skills and points them at this folder
